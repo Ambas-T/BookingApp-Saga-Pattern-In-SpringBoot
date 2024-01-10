@@ -1,13 +1,14 @@
 package com.booking.app.carservice.controller;
 
-import com.example.carservice.Exception.CarException;
-import com.example.carservice.dto.CarBookingDto;
-import com.example.carservice.dto.CarBookingRequestDto;
-import com.example.carservice.service.CarService;
+import com.booking.app.carservice.Exception.CarException;
+import com.booking.app.carservice.dto.CarBookingDto;
+import com.booking.app.carservice.dto.CarBookingRequestDto;
+import com.booking.app.carservice.service.CarService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
