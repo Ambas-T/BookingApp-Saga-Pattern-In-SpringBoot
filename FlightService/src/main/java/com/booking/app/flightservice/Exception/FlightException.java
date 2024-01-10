@@ -1,4 +1,4 @@
-package com.flightservice.Exception;
+package com.booking.app.flightservice.Exception;
 
 public class FlightException extends Exception {
 

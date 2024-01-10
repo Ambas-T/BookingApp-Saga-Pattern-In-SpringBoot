@@ -1,4 +1,4 @@
-package com.flightservice.dto;
+package com.booking.app.flightservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

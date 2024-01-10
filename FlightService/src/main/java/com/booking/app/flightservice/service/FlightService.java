@@ -1,4 +1,4 @@
-package com.flightservice.service;
+package com.booking.app.flightservice.service;
 
 import com.example.flightservice.Exception.FlightException;
 import com.example.flightservice.dto.FlightBookingDto;

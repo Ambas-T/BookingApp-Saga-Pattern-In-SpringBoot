@@ -1,4 +1,4 @@
-package com.flightservice.entity;
+package com.booking.app.flightservice.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
