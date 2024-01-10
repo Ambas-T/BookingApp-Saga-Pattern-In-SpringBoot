@@ -1,7 +1,7 @@
 # BookingApp-Saga-Patern-In-SpringBoot
 This repository discusses the Saga Pattern using a booking application and is built using the Spring Boot microservices architecture.
 
-**Definition of The Saga Pattern **
+**Definition of The Saga Pattern**
 
 The Saga Pattern breaks a long transaction into smaller ones. Each transaction is independent and updates the system. A transaction publishes  an event or message to trigger the next transaction. In case of failure, it will compensate transactions.
 
