@@ -5,7 +5,7 @@ This repository discusses the Saga Pattern using a booking application and is bu
 
 The Saga Pattern breaks a long transaction into smaller ones. Each transaction is independent and updates the system. A transaction publishes  an event or message to trigger the next transaction. In case of failure, it will compensate transactions.
 
-In this repository, you will the below design implemented.
+In this repository, you will implement the below design.
 
  ![Untitled Diagram drawio(1)](https://github.com/Ambas-T/BookingApp-Saga-Patern-In-SpringBoot/assets/148710180/4a5a93b8-b1d0-4de2-96a8-07dd42c7ee9c)
 
