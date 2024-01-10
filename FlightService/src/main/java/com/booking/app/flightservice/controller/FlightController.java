@@ -1,11 +1,12 @@
 package com.booking.app.flightservice.controller;
 
-import com.example.flightservice.Exception.FlightException;
-import com.example.flightservice.dto.FlightBookingDto;
-import com.example.flightservice.dto.FlightBookingRequestDto;
-import com.example.flightservice.service.FlightService;
+import com.booking.app.flightservice.Exception.FlightException;
+import com.booking.app.flightservice.dto.FlightBookingDto;
+import com.booking.app.flightservice.dto.FlightBookingRequestDto;
+import com.booking.app.flightservice.service.FlightService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/flights")

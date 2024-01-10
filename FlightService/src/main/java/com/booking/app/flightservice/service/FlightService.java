@@ -1,10 +1,10 @@
 package com.booking.app.flightservice.service;
 
-import com.example.flightservice.Exception.FlightException;
-import com.example.flightservice.dto.FlightBookingDto;
-import com.example.flightservice.dto.FlightBookingRequestDto;
-import com.example.flightservice.entity.FlightBooking;
-import com.example.flightservice.repository.FlightBookingRepository;
+import com.booking.app.flightservice.Exception.FlightException;
+import com.booking.app.flightservice.dto.FlightBookingDto;
+import com.booking.app.flightservice.dto.FlightBookingRequestDto;
+import com.booking.app.flightservice.entity.FlightBooking;
+import com.booking.app.flightservice.repository.FlightBookingRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
