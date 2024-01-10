@@ -1,4 +1,4 @@
-package com.bookingservice.Exception;
+package com.bookingservice.exception;
 
 public class BookingException extends Exception {
 

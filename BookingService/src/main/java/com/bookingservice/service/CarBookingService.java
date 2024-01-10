@@ -1,9 +1,9 @@
-package com.bookingservice.Service;
+package com.bookingservice.service;
 
-import com.bookingservice.DTO.CarBookingResponse;
-import com.bookingservice.Client.CarClient;
-import com.bookingservice.DTO.CarBookingRequest;
-import com.bookingservice.Exception.BookingException;
+import com.bookingservice.dto.CarBookingResponse;
+import com.bookingservice.client.CarClient;
+import com.bookingservice.dto.CarBookingRequest;
+import com.bookingservice.exception.BookingException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

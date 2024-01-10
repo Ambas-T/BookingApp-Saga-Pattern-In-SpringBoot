@@ -1,7 +1,7 @@
-package com.bookingservice.Client;
+package com.bookingservice.client;
 
-import com.bookingservice.DTO.CarBookingResponse;
-import com.bookingservice.DTO.CarBookingRequest;
+import com.bookingservice.dto.CarBookingResponse;
+import com.bookingservice.dto.CarBookingRequest;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PathVariable;

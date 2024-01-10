@@ -1,8 +1,8 @@
-package com.bookingservice.Service;
+package com.bookingservice.service;
 
-import com.bookingservice.DTO.FlightBookingResponse;
-import com.bookingservice.Client.FlightClient;
-import com.bookingservice.DTO.FlightBookingRequest;
+import com.bookingservice.dto.FlightBookingResponse;
+import com.bookingservice.client.FlightClient;
+import com.bookingservice.dto.FlightBookingRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

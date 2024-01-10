@@ -1,9 +1,9 @@
-package com.bookingservice.DTO;
+package com.bookingservice.dto;
 
 import lombok.Data;
 
 @Data
-public class HotelBookingResponse {
+public class CarBookingResponse {
     private boolean success;
     private Long bookingId;
 }

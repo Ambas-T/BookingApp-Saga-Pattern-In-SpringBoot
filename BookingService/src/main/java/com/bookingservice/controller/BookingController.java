@@ -1,8 +1,8 @@
-package com.bookingservice.Controller;
+package com.bookingservice.controller;
 
-import com.bookingservice.DTO.BookingDto;
-import com.bookingservice.Exception.BookingException;
-import com.bookingservice.Service.BookingService;
+import com.bookingservice.dto.BookingDto;
+import com.bookingservice.exception.BookingException;
+import com.bookingservice.service.BookingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

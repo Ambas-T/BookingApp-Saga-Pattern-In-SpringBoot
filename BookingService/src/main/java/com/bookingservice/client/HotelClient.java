@@ -1,7 +1,7 @@
-package com.bookingservice.Client;
+package com.bookingservice.client;
 
-import com.bookingservice.DTO.HotelBookingRequest;
-import com.bookingservice.DTO.HotelBookingResponse;
+import com.bookingservice.dto.HotelBookingRequest;
+import com.bookingservice.dto.HotelBookingResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PathVariable;

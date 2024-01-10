@@ -1,4 +1,4 @@
-package com.bookingservice.Entity;
+package com.bookingservice.entity;
 
 
 import jakarta.persistence.Entity;

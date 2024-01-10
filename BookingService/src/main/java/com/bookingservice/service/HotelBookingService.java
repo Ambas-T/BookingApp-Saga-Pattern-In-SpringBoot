@@ -1,8 +1,8 @@
-package com.bookingservice.Service;
+package com.bookingservice.service;
 
-import com.bookingservice.Client.HotelClient;
-import com.bookingservice.DTO.HotelBookingRequest;
-import com.bookingservice.DTO.HotelBookingResponse;
+import com.bookingservice.client.HotelClient;
+import com.bookingservice.dto.HotelBookingRequest;
+import com.bookingservice.dto.HotelBookingResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

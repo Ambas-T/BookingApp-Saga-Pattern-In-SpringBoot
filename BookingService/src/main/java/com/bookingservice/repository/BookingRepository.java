@@ -1,7 +1,7 @@
-package com.bookingservice.Repository;
+package com.bookingservice.repository;
 
 
-import com.bookingservice.Entity.Booking;
+import com.bookingservice.entity.Booking;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BookingRepository extends JpaRepository<Booking, Long> {
