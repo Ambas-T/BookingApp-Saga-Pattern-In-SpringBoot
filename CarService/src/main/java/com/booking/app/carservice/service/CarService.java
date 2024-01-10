@@ -1,10 +1,10 @@
-package com.carservice.service;
+package com.booking.app.carservice.service;
 
-import com.carservice.Exception.CarException;
-import com.carservice.dto.CarBookingDto;
-import com.carservice.dto.CarBookingRequestDto;
-import com.carservice.entity.CarBooking;
-import com.carservice.repository.CarBookingRepository;
+import com.booking.app.carservice.Exception.CarException;
+import com.booking.app.carservice.dto.CarBookingDto;
+import com.booking.app.carservice.dto.CarBookingRequestDto;
+import com.booking.app.carservice.entity.CarBooking;
+import com.booking.app.carservice.repository.CarBookingRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

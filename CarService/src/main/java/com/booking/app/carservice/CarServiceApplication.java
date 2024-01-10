@@ -1,4 +1,4 @@
-package com.carservice;
+package com.booking.app.carservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

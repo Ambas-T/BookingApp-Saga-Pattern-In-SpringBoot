@@ -1,4 +1,4 @@
-package com.carservice.controller;
+package com.booking.app.carservice.controller;
 
 import com.example.carservice.Exception.CarException;
 import com.example.carservice.dto.CarBookingDto;

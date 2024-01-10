@@ -1,4 +1,4 @@
-package com.carservice.dto;
+package com.booking.app.carservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

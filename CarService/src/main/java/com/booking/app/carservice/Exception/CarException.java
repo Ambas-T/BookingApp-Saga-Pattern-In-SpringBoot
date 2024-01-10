@@ -1,4 +1,4 @@
-package com.carservice.Exception;
+package com.booking.app.carservice.Exception;
 
 public class CarException extends Exception {
 
