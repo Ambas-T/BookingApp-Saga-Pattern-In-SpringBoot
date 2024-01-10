@@ -1,12 +1,14 @@
 package com.demo.controller;
 
-import com.example.hotelservice.Exception.HotelException;
-import com.example.hotelservice.dto.HotelBookingRequest;
-import com.example.hotelservice.dto.HotelReservationDto;
-import com.example.hotelservice.service.HotelService;
+
+import com.demo.Exception.HotelException;
+import com.demo.dto.HotelBookingRequest;
+import com.demo.dto.HotelReservationDto;
+import com.demo.service.HotelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 

@@ -1,10 +1,10 @@
 package com.demo.service;
 
-import com.example.hotelservice.Exception.HotelException;
-import com.example.hotelservice.dto.HotelBookingRequest;
-import com.example.hotelservice.dto.HotelReservationDto;
-import com.example.hotelservice.entity.HotelReservation;
-import com.example.hotelservice.repository.HotelReservationRepository;
+import com.demo.Exception.HotelException;
+import com.demo.dto.HotelBookingRequest;
+import com.demo.dto.HotelReservationDto;
+import com.demo.entity.HotelReservation;
+import com.demo.repository.HotelReservationRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

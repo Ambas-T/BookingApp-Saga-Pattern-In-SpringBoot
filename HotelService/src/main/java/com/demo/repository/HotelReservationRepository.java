@@ -1,6 +1,6 @@
 package com.demo.repository;
 
-import com.example.hotelservice.entity.HotelReservation;
+import com.demo.entity.HotelReservation;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface HotelReservationRepository extends MongoRepository<HotelReservation, String> {
