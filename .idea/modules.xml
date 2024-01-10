@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BookingApp-Saga-Patern-In-SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/BookingApp-Saga-Patern-In-SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/BookingService/BookingService.iml" filepath="$PROJECT_DIR$/BookingService/BookingService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CarService/CarService.iml" filepath="$PROJECT_DIR$/CarService/CarService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlightService/FlightService.iml" filepath="$PROJECT_DIR$/FlightService/FlightService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HotelService/HotelService.iml" filepath="$PROJECT_DIR$/HotelService/HotelService.iml" />
     </modules>
   </component>
 </project>
